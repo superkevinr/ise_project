@@ -1,0 +1,8 @@
+verilog work "SEG7_LUT.v"
+verilog work "Divider50MHz.v"
+verilog work "counter6.v"
+verilog work "counter24.v"
+verilog work "counter10.v"
+verilog work "top_clock.v"
+verilog work "testofDigitalclock.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

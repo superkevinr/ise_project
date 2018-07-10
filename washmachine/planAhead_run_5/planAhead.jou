@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Mar 14 14:02:29 2018
+# Process ID: 2304
+# Log file: C:/Users/Kevin/Documents/ise_project/washmachine/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/Kevin/Documents/ise_project/washmachine/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Kevin/Documents/ise_project/washmachine/pa.fromNetlist.tcl
+startgroup
+set_property package_pin K14 [get_ports {SEL[3]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin M13 [get_ports {SEL[2]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {SEL[2]}]]
+set_property is_loc_fixed true [get_ports [list  {SEL[2]}]]
+save_constraints

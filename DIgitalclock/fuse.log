@@ -1,0 +1,29 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Kevin/Documents/ise_project/DIgitalclock/testofDigitalclock_isim_beh.exe -prj C:/Users/Kevin/Documents/ise_project/DIgitalclock/testofDigitalclock_beh.prj work.testofDigitalclock work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/SEG7_LUT.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/Divider50MHz.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/counter6.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/counter24.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/counter10.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/top_clock.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/DIgitalclock/testofDigitalclock.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Divider50MHz(CLK_Freq=50000000,O...
+Compiling module counter10
+Compiling module counter6
+Compiling module counter24
+Compiling module SEG7_LUT
+Compiling module top_clock
+Compiling module testofDigitalclock
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/Kevin/Documents/ise_project/DIgitalclock/testofDigitalclock_isim_beh.exe
+Fuse Memory Usage: 28840 KB
+Fuse CPU Usage: 453 ms

@@ -1,0 +1,5 @@
+verilog isim_temp "../washmachine/Divider50MHz.v"
+verilog isim_temp "SEG7_LUT.v"
+verilog isim_temp "revertableclocktop.v"
+verilog isim_temp "testofrevertableclock.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,27 @@
+
+
+NET "SEG[5]" LOC = L13;
+NET "SEG[4]" LOC = P12;
+NET "SEG[3]" LOC = N11;
+NET "SEG[2]" LOC = N14;
+NET "SEG[1]" LOC = H12;
+NET "SEG[0]" LOC = L14;
+NET "SEG[6]" LOC = M12;
+NET "SEL[3]" LOC = K14;
+NET "SEL[2]" LOC = M13;
+NET "SEL[1]" LOC = J12;
+NET "SEL[0]" LOC = F12;
+NET "Adj_Min" LOC = P11;
+NET "Adj_Hour" LOC = L3;
+NET "CLK_50" LOC = B8;
+NET "EN" LOC = K3;
+NET "nCR" LOC = B4;
+NET "secLED" LOC = M5;
+
+# PlanAhead Generated physical constraints 
+
+NET "alarmout" LOC = M11;
+NET "CtrRing" LOC = G3;
+NET "mode" LOC = F3;
+NET "sethkey" LOC = E2;
+NET "setmkey" LOC = N3;

@@ -1,0 +1,129 @@
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine_preroute.twx top_washmachine_map.ncd -o top_washmachine_preroute.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+netgen -intstyle ise -s 4  -pcf top_washmachine.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim top_washmachine_map.ncd top_washmachine_map.v 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_washmachine.ucf -p xc3s100e-cp132-4 top_washmachine.ngc top_washmachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_washmachine_map.ncd top_washmachine.ngd top_washmachine.pcf 
+par -w -intstyle ise -ol high -t 1 top_washmachine_map.ncd top_washmachine.ncd top_washmachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_washmachine.twx top_washmachine.ncd -o top_washmachine.twr top_washmachine.pcf -ucf top_washmachine.ucf 
+bitgen -intstyle ise -f top_washmachine.ut top_washmachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.xst" -ofn "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.syr" 

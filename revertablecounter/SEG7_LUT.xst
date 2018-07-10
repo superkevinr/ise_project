@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kevin/Documents/ise_project/revertablecounter/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kevin/Documents/ise_project/revertablecounter/xst"
+elaborate
+-ifn SEG7_LUT.prj
+-ifmt mixed

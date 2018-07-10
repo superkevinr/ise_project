@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Kevin\Documents\ise_project\washmachine\impact.xsl
+OUTFILE=C:\Users\Kevin\Documents\ise_project\washmachine\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\Kevin\Documents\ise_project\washmachine
+LICENSE=iMPACT
+USER_INFO=iMPACT

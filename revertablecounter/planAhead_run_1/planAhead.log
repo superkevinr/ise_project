@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Mar 19 13:23:36 2018
+# Process ID: 10668
+# Log file: C:/Users/Kevin/Documents/ise_project/revertablecounter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Kevin/Documents/ise_project/revertablecounter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Kevin/Documents/ise_project/revertablecounter/pa.fromNetlist.tcl
+# create_project -name revertablecounter -dir "C:/Users/Kevin/Documents/ise_project/revertablecounter/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Kevin/Documents/ise_project/revertablecounter} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "revertableclocktop.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.ucf' to fileset 'constrs_1'
+# add_files [list {revertableclocktop.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design revertableclocktop.ngc ...
+WARNING:NetListWriters:298 - No output is written to revertableclocktop.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus D0/Mcompar_CLK_1HzOut_cmp_lt0000_lut<10
+   : 0> on block revertableclocktop is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file revertableclocktop.edif ...
+ngc2edif: Total memory usage is 83220 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/revertablecounter.data/cache/revertableclocktop_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/revertablecounter.data/cache/revertableclocktop_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.ucf]
+Finished Parsing UCF File [C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f860b42f
+link_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 512.344 ; gain = 70.492
+startgroup
+set_property package_pin L14 [get_ports {SEG[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SEG[5]}]]
+startgroup
+set_property package_pin M12 [get_ports {SEG[6]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {SEG[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {SEG[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {SEG[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {SEG[2]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {SEG[1]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {SEG[0]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {SEL[3]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {SEL[2]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {SEL[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {SEL[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports CLK_50]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports nCLR]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports revert]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Kevin/Documents/ise_project/revertablecounter\planAhead_pid10668.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Mar 19 13:29:00 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

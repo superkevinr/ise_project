@@ -1,0 +1,261 @@
+
+*** Running xst
+    with args -ifn "top_washmachine.xst" -ofn "top_washmachine.srp" -intstyle ise
+
+Reading design: top_washmachine.prj
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "C:/Users/Kevin/Documents/ise_project/washmachine/SEG7_LUT.v" in library work
+Compiling verilog file "C:/Users/Kevin/Documents/ise_project/washmachine/Divider50MHz.v" in library work
+Module <SEG7_LUT> compiled
+Compiling verilog file "C:/Users/Kevin/Documents/ise_project/washmachine/counter6.v" in library work
+Module <Divider50MHz> compiled
+Compiling verilog file "C:/Users/Kevin/Documents/ise_project/washmachine/counter10.v" in library work
+Module <counter6> compiled
+Compiling verilog file "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.v" in library work
+Module <counter10> compiled
+Module <top_washmachine> compiled
+No errors in compilation
+Analysis of file <"top_washmachine.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top_washmachine> in library <work> with parameters.
+	S0 = "00"
+	S1 = "01"
+	S2 = "10"
+	S3 = "11"
+
+Analyzing hierarchy for module <Divider50MHz> in library <work> with parameters.
+	CLK_Freq = "00000010111110101111000010000000"
+	N = "00000000000000000000000000011001"
+	OUT_Freq = "00000000000000000000000000000001"
+
+Analyzing hierarchy for module <counter10> in library <work>.
+
+Analyzing hierarchy for module <counter6> in library <work>.
+
+Analyzing hierarchy for module <SEG7_LUT> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top_washmachine>.
+	S0 = 2'b00
+	S1 = 2'b01
+	S2 = 2'b10
+	S3 = 2'b11
+Module <top_washmachine> is correct for synthesis.
+ 
+Analyzing module <Divider50MHz> in library <work>.
+	CLK_Freq = 32'sb00000010111110101111000010000000
+	N = 32'sb00000000000000000000000000011001
+	OUT_Freq = 32'sb00000000000000000000000000000001
+Module <Divider50MHz> is correct for synthesis.
+ 
+Analyzing module <counter10> in library <work>.
+Module <counter10> is correct for synthesis.
+ 
+Analyzing module <counter6> in library <work>.
+Module <counter6> is correct for synthesis.
+ 
+Analyzing module <SEG7_LUT> in library <work>.
+Module <SEG7_LUT> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Divider50MHz>.
+    Related source file is "C:/Users/Kevin/Documents/ise_project/washmachine/Divider50MHz.v".
+    Found 1-bit register for signal <CLK_1HzOut>.
+    Found 25-bit comparator less for signal <CLK_1HzOut$cmp_lt0000> created at line 38.
+    Found 25-bit up counter for signal <Count_DIV>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Divider50MHz> synthesized.
+
+
+Synthesizing Unit <counter10>.
+    Related source file is "C:/Users/Kevin/Documents/ise_project/washmachine/counter10.v".
+    Found 4-bit up counter for signal <Q>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter10> synthesized.
+
+
+Synthesizing Unit <counter6>.
+    Related source file is "C:/Users/Kevin/Documents/ise_project/washmachine/counter6.v".
+    Found 4-bit up counter for signal <Q>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter6> synthesized.
+
+
+Synthesizing Unit <SEG7_LUT>.
+    Related source file is "C:/Users/Kevin/Documents/ise_project/washmachine/SEG7_LUT.v".
+    Found 16x7-bit ROM for signal <oSEG>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <SEG7_LUT> synthesized.
+
+
+Synthesizing Unit <top_washmachine>.
+    Related source file is "C:/Users/Kevin/Documents/ise_project/washmachine/top_washmachine.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 5                                              |
+    | Clock              | CLK_50                    (rising_edge)        |
+    | Clock enable       | emergency                 (negative)           |
+    | Reset              | start                     (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <backward>.
+    Found 1-bit register for signal <forward>.
+    Found 1-bit register for signal <off>.
+    Found 1-bit register for signal <EN>.
+    Found 4-bit up counter for signal <loops>.
+    Found 4-bit comparator less for signal <loops$cmp_lt0000> created at line 62.
+    Found 1-bit register for signal <nCR>.
+    Found 4-bit down counter for signal <times>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <top_washmachine> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Counters                                             : 5
+ 25-bit up counter                                     : 1
+ 4-bit down counter                                    : 1
+ 4-bit up counter                                      : 3
+# Registers                                            : 6
+ 1-bit register                                        : 6
+# Comparators                                          : 2
+ 25-bit comparator less                                : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Counters                                             : 5
+ 25-bit up counter                                     : 1
+ 4-bit down counter                                    : 1
+ 4-bit up counter                                      : 3
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 2
+ 25-bit comparator less                                : 1
+ 4-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top_washmachine> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_50                             | BUFGP                  | 37    |
+U0/CLK_1HzOut                      | NONE(C2/Q_0)           | 8     |
+add                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+nCR_inv(nCR_inv1_INV_0:O)          | NONE(C1/Q_0)           | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.473ns (Maximum Frequency: 182.705MHz)
+   Minimum input arrival time before clock: 4.317ns
+   Maximum output required time after clock: 7.205ns
+   Maximum combinational path delay: 6.362ns
+
+=========================================================================

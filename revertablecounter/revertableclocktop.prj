@@ -1,0 +1,3 @@
+verilog work "../washmachine/Divider50MHz.v"
+verilog work "SEG7_LUT.v"
+verilog work "revertableclocktop.v"

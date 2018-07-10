@@ -1,0 +1,24 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Kevin/Documents/ise_project/revertablecounter/testofrevertableclock_isim_beh.exe" -prj "C:/Users/Kevin/Documents/ise_project/revertablecounter/testofrevertableclock_beh.prj" "work.testofrevertableclock" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/revertablecounter/../washmachine/Divider50MHz.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/revertablecounter/SEG7_LUT.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.v" into library work
+Analyzing Verilog file "C:/Users/Kevin/Documents/ise_project/revertablecounter/testofrevertableclock.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Kevin/Documents/ise_project/revertablecounter/revertableclocktop.v" Line 31: Size mismatch in connection of port <nCLR>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module Divider50MHz(CLK_Freq=50000000,O...
+Compiling module SEG7_LUT
+Compiling module revertableclocktop
+Compiling module testofrevertableclock
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/Kevin/Documents/ise_project/revertablecounter/testofrevertableclock_isim_beh.exe
+Fuse Memory Usage: 27408 KB
+Fuse CPU Usage: 484 ms

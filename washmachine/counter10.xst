@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kevin/Documents/ise_project/washmachine/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kevin/Documents/ise_project/washmachine/xst"
+elaborate
+-ifn counter10.prj
+-ifmt mixed

@@ -1,0 +1,8 @@
+verilog work "signext.v"
+verilog work "regFile.v"
+verilog work "ipcore_dir/irom.v"
+verilog work "ipcore_dir/dram.v"
+verilog work "ctr.v"
+verilog work "aluctr.v"
+verilog work "alu.v"
+verilog work "top.v"

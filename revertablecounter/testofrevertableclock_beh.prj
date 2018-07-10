@@ -1,0 +1,5 @@
+verilog work "../washmachine/Divider50MHz.v"
+verilog work "SEG7_LUT.v"
+verilog work "revertableclocktop.v"
+verilog work "testofrevertableclock.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

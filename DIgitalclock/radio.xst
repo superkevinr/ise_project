@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kevin/Documents/ise_project/DIgitalclock/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kevin/Documents/ise_project/DIgitalclock/xst"
+elaborate
+-ifn radio.prj
+-ifmt mixed

@@ -1,0 +1,9 @@
+set -loop_iteration_limit 1000
+run
+-ifn top_washmachine.prj
+-top top_washmachine
+-p xc3s100ecp132-4
+-ofn top_washmachine.ngc
+-opt_mode speed
+-opt_level 1
+-bufg 24

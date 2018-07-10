@@ -1,0 +1,50 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Mar 14 14:04:08 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "start" LOCATE = SITE "L3" LEVEL 1;
+COMP "backward" LOCATE = SITE "N5" LEVEL 1;
+COMP "forward" LOCATE = SITE "P6" LEVEL 1;
+COMP "add" LOCATE = SITE "G12" LEVEL 1;
+PIN add_pin<0> = BEL "add" PINNAME PAD;
+PIN "add_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "CLR" LOCATE = SITE "C11" LEVEL 1;
+NET "add_BUFGP/IBUFG" BEL "add_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "CLK_50_BUFGP/IBUFG" BEL "CLK_50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "emergency" LOCATE = SITE "P11" LEVEL 1;
+COMP "alarm" LOCATE = SITE "M5" LEVEL 1;
+COMP "HEX0<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "SEL<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "HEX0<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "SEL<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "HEX0<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "SEL<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "HEX0<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "SEL<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "HEX0<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "HEX0<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "HEX0<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "CLK_50" LOCATE = SITE "B8" LEVEL 1;
+COMP "off" LOCATE = SITE "P7" LEVEL 1;
+TIMEGRP CLK_50 = BEL "nCR" BEL "forward" BEL "backward" BEL "off" BEL
+        "U0/CLK_1HzOut" BEL "times_0" BEL "times_1" BEL "times_2" BEL
+        "times_3" BEL "U0/Count_DIV_0" BEL "U0/Count_DIV_1" BEL
+        "U0/Count_DIV_2" BEL "U0/Count_DIV_3" BEL "U0/Count_DIV_4" BEL
+        "U0/Count_DIV_5" BEL "U0/Count_DIV_6" BEL "U0/Count_DIV_7" BEL
+        "U0/Count_DIV_8" BEL "U0/Count_DIV_9" BEL "U0/Count_DIV_10" BEL
+        "U0/Count_DIV_11" BEL "U0/Count_DIV_12" BEL "U0/Count_DIV_13" BEL
+        "U0/Count_DIV_14" BEL "U0/Count_DIV_15" BEL "U0/Count_DIV_16" BEL
+        "U0/Count_DIV_17" BEL "U0/Count_DIV_18" BEL "U0/Count_DIV_19" BEL
+        "U0/Count_DIV_20" BEL "U0/Count_DIV_21" BEL "U0/Count_DIV_22" BEL
+        "U0/Count_DIV_23" BEL "U0/Count_DIV_24" BEL "state_FSM_FFd1" BEL
+        "state_FSM_FFd2" BEL "D0/count_19" BEL "D0/count_18" BEL "D0/count_17"
+        BEL "D0/count_16" BEL "D0/count_15" BEL "D0/count_14" BEL
+        "D0/count_13" BEL "D0/count_12" BEL "D0/count_11" BEL "D0/count_10"
+        BEL "D0/count_9" BEL "D0/count_8" BEL "D0/count_7" BEL "D0/count_6"
+        BEL "D0/count_5" BEL "D0/count_4" BEL "D0/count_3" BEL "D0/count_2"
+        BEL "D0/count_1" BEL "D0/count_0" BEL "D0/clk" BEL "EN" BEL
+        "CLK_50_BUFGP/BUFG.GCLKMUX" BEL "CLK_50_BUFGP/BUFG";
+TS_CLK_50 = PERIOD TIMEGRP "CLK_50" 20 ns HIGH 50%;
+SCHEMATIC END;
+

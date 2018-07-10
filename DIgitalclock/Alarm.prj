@@ -1,0 +1,5 @@
+verilog work "counter6.v"
+verilog work "counter24.v"
+verilog work "counter10.v"
+verilog work "comparator.v"
+verilog work "Alarm.v"

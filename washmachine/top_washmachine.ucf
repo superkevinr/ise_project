@@ -1,0 +1,27 @@
+NET "add" LOC = G12;
+NET "alarm" LOC = M5;
+NET "off" LOC = P7;
+NET "forward" LOC = P6;
+NET "backward" LOC = N5;
+NET "CLK_50" LOC = B8;
+NET "add" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "emergency" LOC = P11;
+NET "start" LOC = L3;
+
+NET "CLR" LOC = C11;
+NET "HEX0[6]" LOC = M12;
+NET "HEX0[5]" LOC = L13;
+NET "HEX0[4]" LOC = P12;
+NET "HEX0[3]" LOC = N11;
+NET "HEX0[2]" LOC = N14;
+NET "HEX0[1]" LOC = H12;
+NET "HEX0[0]" LOC = L14;
+NET "SEL[1]" LOC = J12;
+NET "SEL[0]" LOC = F12;
+#Created by Constraints Editor (xc3s100e-cp132-4) - 2018/03/11
+NET "CLK_50" TNM_NET = "CLK_50";
+TIMESPEC TS_CLK_50 = PERIOD "CLK_50" 20 ns HIGH 50 %;
+# PlanAhead Generated physical constraints 
+
+NET "SEL[3]" LOC = K14;
+NET "SEL[2]" LOC = M13;

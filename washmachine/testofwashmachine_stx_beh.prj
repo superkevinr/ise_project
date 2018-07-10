@@ -1,0 +1,7 @@
+verilog isim_temp "SEG7_LUT.v"
+verilog isim_temp "Divider50MHz.v"
+verilog isim_temp "counter6.v"
+verilog isim_temp "counter10.v"
+verilog isim_temp "top_washmachine.v"
+verilog isim_temp "testofwashmachine.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

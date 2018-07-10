@@ -1,0 +1,28 @@
+Command line:
+   testofDigitalclock_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9273
+
+Tue Mar 27 21:36:32 2018
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5181.78 Meg
+
+ Total Signals          : 50
+ Total Nets             : 76
+ Total Signal Drivers   : 26
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 40
+ Total Traceable Variables  : 41
+ Total Scalar Nets and Variables : 346
+
+ Total Simulation Time: 138.766 sec
+
+ Current Memory Usage: 5024.49 Meg
+
+Tue Mar 27 21:38:53 2018
+
